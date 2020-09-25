@@ -1,6 +1,9 @@
 from cv2 import cv2
 import pytesseract as pyt
 import matplotlib.pyplot as plt
+import glob 
+
+
 
 img = cv2.imread("beligium.png")
 

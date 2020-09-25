@@ -1,9 +1,8 @@
 import glob 
 import os
 
-files = glob.glob("downloads/**.png")
-print(files)
-
-for file in files:
-    filename = file.split(".")[0]
-    os.rename(file, filename + ".gif")
+#files = glob.glob("downloads/**.gif")
+#print(files)
+#
+#for file in files:
+#    os.remove(file)
